@@ -26,6 +26,13 @@
              </div>
              <div id="new-addresses">
               <div class="new-address">
+
+                <select class="form-control" id="addressType">
+                  <option value="Home">Home</option>
+                  <option value="Work">Work</option>
+                  <option value="Emergency">Emergency</option>
+                </select>
+
                 <div class="form-group">
                   <label for="new-street">Street</label>
                   <input type="text" class="form-control new-street">
@@ -39,6 +46,9 @@
                   <input type="text" class="form-control new-state">
                 </div>
               </div>
+            </div>
+            <div id="addedAddresses">
+
             </div>
              <span class="btn btn-primary" id="add-address">Another address</span>
              <button type="submit" class="btn">Add</button>
